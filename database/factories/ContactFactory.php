@@ -6,7 +6,7 @@ namespace Database\Factories;
 use App\Models\Contact;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class ContactsFactory extends Factory
+class ContactFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
