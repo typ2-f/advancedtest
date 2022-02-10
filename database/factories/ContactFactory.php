@@ -26,10 +26,10 @@ class ContactFactory extends Factory
             'fullname' => $this->faker->name,
             'gender' => $this->faker->numberBetween(1, 2),
             'email' => $this->faker->safeEmail(),
-            'postcode'=> $this->faker->postcode,
-            'address'=> $this->faker->streetAddress(),
-            'building_name'=> $this->faker->company(),
-            'opinion' => $this->faker->sentence(),
+            'postcode' => $this->faker->postcode,
+            'address' => $this->faker->streetAddress(),
+            'building_name' => $this->faker->company(),
+            'opinion' => $this->faker->realtext(50),
         ];
     }
 }
