@@ -12,8 +12,6 @@
     }
     h1 {
       font-size:60px;
-      color:white;
-      text-shadow:1px 0 5px #289ADC;
       letter-spacing:-4px;
       margin-left: 10px
     }
